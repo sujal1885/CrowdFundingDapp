@@ -74,3 +74,48 @@ header ul li:hover {
     color: #D9D9D9 !important;
     background-color: #1A1B1E !important;
 }
+
+.footer {
+    background: linear-gradient(270deg, #48FF91 3.43%, rgba(81, 30, 27, 0.319792) 64.04%, rgba(16, 3, 2, 0) 133.76%);
+    height: 40vh;
+    margin: 0 1.2rem;
+    margin-bottom: 1.5rem;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.footer .content {
+    height: 33vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.footer .content .child2 {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer .content .child3 img {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    padding: 0.2rem;
+    margin: 0 2px;
+    border-radius: 10%;
+}
+
+.footer hr {
+    width: 80vw;
+    margin: 0.6rem auto;
+}
+
+.footer p {
+    margin: 5px 0;
+    color: white;
+    font-size: large;
+}
