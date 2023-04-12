@@ -25,7 +25,7 @@ function Home (){
                             marginBottom:'0.4rem',
                             padding:'0.4rem 2rem',
                             borderRadius:'45px',
-                            width:'5rem',
+                            width:'9rem',
                             fontSize:'1.5rem'
                         }}>Create</a>
 
