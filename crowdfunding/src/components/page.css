@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 
 header {
     background: #1A1B1E;
-    padding: 0.5rem 0;
+    padding: 0.5rem 2rem;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -21,7 +22,7 @@ header {
 header a {
     text-decoration: none;
     color: white;
-    margin: 0rem 2rem;
+    margin: 0rem 0rem;
     font-size: 2rem;
 }
 
@@ -44,8 +45,16 @@ header ul li:hover {
     color: black;
 }
 
+#mobile {
+    display: none;
+}
+
+#mobile i {
+    color: #fff;
+}
+
 .Home {
-    height: 70vh;
+    height: 90vh;
 }
 
 .Home .container {
@@ -53,7 +62,7 @@ header ul li:hover {
     background: url(https://s3-alpha-sig.figma.com/img/1305/0524/72c5f0cba65cfeddfdd82d48dee4be68?Expires=1681689600&Signature=p1AwyMWWkezEFZL7JafTRZ332yD2uF7oBhWETNTS1bgTBesswKRSAlAwdtLrCz4FChms8AuvgDk87YciXxlheCkOM-1fRbj3iMgxe8dPhDjst2Ro0y-gjPQFuK-Xca7I8oRCFHTz2p4Es5afPA-c1Ke34gOjbcAzcxLU6Myk0AK0F8E~sekRfuE2lYVJPEJisug3QmIEdlXdLrglmO0za5H~aJWpY-TImUSVcjS6rpdGDlxZsz4A4OfJQdI-zckCBOrUAFHUar3uzV15yyLCtEo6hpgXA6BQ93IamzgZyY7G7q6hJo0BhgrMh4AMjagbBYAikGYFUBklfxcfL632rw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)no-repeat center center/cover;
     position: absolute;
     box-shadow: inset 100vw 0px 0px rgba(0, 0, 0, 0.65);
-    height: 70vh;
+    height: 90vh;
     width: 100%;
     z-index: -1;
 }
@@ -63,7 +72,7 @@ header ul li:hover {
     flex-direction: column;
     align-items: center;
     margin: auto;
-    padding-top: 20vh;
+    padding-top: 30vh;
     width: 50vw;
     color: white;
     text-align: center;
@@ -71,8 +80,8 @@ header ul li:hover {
 }
 
 .Home .content a:hover {
-    color: #D9D9D9 !important;
-    background-color: #1A1B1E !important;
+    color: #1A1B1E  !important;
+    background-color:#118149 !important;
 }
 
 .footer {
@@ -118,4 +127,39 @@ header ul li:hover {
     margin: 5px 0;
     color: white;
     font-size: large;
+}
+
+@media screen and ( max-width:769px ){
+    header ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 53px;
+        right: 0px;
+        width: 300px;
+        height: 100vh;
+        background-color: #1E1E1E;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.65);
+        padding: 40px 0 0 10px;
+    }
+
+    header ul.active {
+        right: -500px;
+    }
+
+    header ul li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    #mobile i {
+        font-size: 100px;
+        cursor: pointer;
+    }
 }

@@ -1,4 +1,4 @@
-import Header from "./components/header"
+import Header from "./components/Header"
 import Home from "./components/Home" 
 import About from "./components/About"
 import Founders from "./components/Founders"
