@@ -9,25 +9,28 @@ import linkedin from '../assets/linkedin.jpeg'
 
 function Founders() {
     return (
+        <div id='Founders'>
+
+        
             <Box
                 sx={{
                     background:'#1F1F1F',
                     paddingLeft:'3%',
                     paddingRight:'3%',
                     paddingTop:'0.5%',
-                    paddingBottom:'5%',
                 }}
             >
                 <Typography
                     sx={{
                         color:'white',
-                        fontFamily: "'Poppins', sans-serif",
+                        fontFamily: "'Raleway', sans-serif",
                         fontSize:'45px',
-                        fontWeight:'500',
-                        marginBottom:'5%',
+                        fontWeight:'800',
+                        textAlign:'center',
+                        margin:'1.5% 0'
                     }}
                 >
-                    Founders
+                    FounDers
                 </Typography>
                 <Grid container spacing={2}>
                  { FoundersData.map((item)=>{
@@ -110,6 +113,8 @@ function Founders() {
                        })}
                 </Grid>
             </Box>
+
+        </div>
     )
 }
 

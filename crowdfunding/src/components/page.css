@@ -17,8 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 100vw;
+    height: 9vh;
 }
 
 header a {
@@ -26,6 +25,8 @@ header a {
     color: white;
     margin: 0rem 0rem;
     font-size: 2rem;
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
 }
 
 header ul {
@@ -35,8 +36,9 @@ header ul {
 
 header ul li {
     margin: 0rem 1rem;
-    padding: 0.3rem 1.3rem;
+    padding: 0.5rem 1.4rem;
     font-size: 1rem;
+    font-weight: 500;
     border-radius: 3rem;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
@@ -56,7 +58,7 @@ header ul li:hover {
 }
 
 .Home {
-    height: 100vh;
+    height: 90vh;
 }
 
 .Home .container {
@@ -64,7 +66,7 @@ header ul li:hover {
     background: url(https://s3-alpha-sig.figma.com/img/1305/0524/72c5f0cba65cfeddfdd82d48dee4be68?Expires=1681689600&Signature=p1AwyMWWkezEFZL7JafTRZ332yD2uF7oBhWETNTS1bgTBesswKRSAlAwdtLrCz4FChms8AuvgDk87YciXxlheCkOM-1fRbj3iMgxe8dPhDjst2Ro0y-gjPQFuK-Xca7I8oRCFHTz2p4Es5afPA-c1Ke34gOjbcAzcxLU6Myk0AK0F8E~sekRfuE2lYVJPEJisug3QmIEdlXdLrglmO0za5H~aJWpY-TImUSVcjS6rpdGDlxZsz4A4OfJQdI-zckCBOrUAFHUar3uzV15yyLCtEo6hpgXA6BQ93IamzgZyY7G7q6hJo0BhgrMh4AMjagbBYAikGYFUBklfxcfL632rw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)no-repeat center center/cover;
     position: absolute;
     box-shadow: inset 100vw 0px 0px rgba(0, 0, 0, 0.65);
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     z-index: -1;
 }
@@ -88,36 +90,72 @@ header ul li:hover {
 
 .footer {
     background: linear-gradient(270deg, #48FF91 3.43%, rgba(81, 30, 27, 0.319792) 64.04%, rgba(16, 3, 2, 0) 133.76%);
-    height: 40vh;
-    margin: 0 1.2rem;
-    margin-bottom: 1.5rem;
+    height: 18rem;
+    margin: 2rem 1.2rem 1.5rem 1.2rem;
+    padding: 1rem 1rem;
     border-top-right-radius: 5rem;
     border-bottom-right-radius: 1rem;
     text-align: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .footer .content {
-    height: 33vh;
+    height: 30vh;
+    margin: 5px 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     align-items: end;
+    overflow: hidden;
 }
 
-.footer .content .child2 {
-    padding-bottom: 1rem;
-    font-size: 1.5rem;
+.footer .content .child2 p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-bottom: 5px;
     color: white;
 }
 
-.footer .content .child3 img {
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: white;
-    padding: 0.2rem;
-    margin: 0 2px;
-    border-radius: 10%;
+.footer .content .child3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-self: right;
+    padding-right: 8vw;
+    padding-bottom: 5px;
+}
+
+.footer .content .child3 h3 {
+    padding-left: 5px; ;
+}
+
+.footer .content .child3 a{
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.footer .content .child3 a i {
+    width: 40px;
+    height: 40px;
+    margin: 2px 0;
+    padding-top: 10px;
+    border-radius: 100%;
+    /* background: linear-gradient(45deg, #00B5F5, #002A8F); */
+    /* background: linear-gradient(270deg, #48FF91 3.43%, rgba(16, 3, 2, 0) 133.76%, rgba(81, 30, 27, 0.319792) 64.04%); */
+    background-color: #1A1B1E;
+    transition: all 265ms ease-out;
+}
+
+.footer .content .child3 a:hover i {
+    transform: scale(1.4);
+    color:  #1A1B1E;
+    background: transparent;
+    transition: all 265ms ease-in;
 }
 
 .footer hr {
@@ -164,4 +202,23 @@ header ul li:hover {
         font-size: 100px;
         cursor: pointer;
     }
+
+    .footer .content .child2 p {
+        font-size: 1.4rem;
+    }
 }
+
+@media screen and ( max-width:375px ){
+    .footer .content {
+        display: inline-flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+        /* margin: auto; */
+    }
+}
+
+
+
+
+

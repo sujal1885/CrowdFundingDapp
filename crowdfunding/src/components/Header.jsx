@@ -1,7 +1,6 @@
 import { Component } from "react";
 import "./page.css";
 import { Link } from "react-router-dom";
-// import { HashLink } from "react-router-hash-link";
 
 class Header extends Component{
 
@@ -14,40 +13,21 @@ class Header extends Component{
         return (
             <>
                 <body>
-                    <header>
+
+                    <header id="Header">
                         <div>
-                            <Link to="/"><a>CWFunD</a></Link>
+                            <Link to="/">
+                            <a href="">CWFunD</a>
+                            </Link>
                         </div>
                         <div>
                             <ul 
                                 className={!this.state.clicked ? "ul active":"ul" }
                                 >
-                                <li><Link to="/" 
-                                style={{
-                                    fontSize:"17px",
-                                    fontWeight:'200'
-                                }}>
-                                    Home
-                                </Link></li>
-                                <li><Link to="/About"
-                                     style={{
-                                        fontSize:"17px",
-                                        fontWeight:'200'
-                                    }}
-                                >About</Link></li>
-                                <li><Link to="/Founders"
-                                     style={{
-                                        fontSize:"17px",
-                                        fontWeight:'200'
-                                    }}
-                                >Founders</Link></li>
-                                <li><Link to="/donateCampaign" 
-                                style={{
-                                    fontSize:"17px",
-                                    fontWeight:'200'
-                                }} 
-                                >
-                                    Donate</Link></li>
+                                <Link to="/"><li>Home</li></Link>
+                                <Link to="/About"><li>About</li></Link>
+                                <Link to="/Founders"><li>Founders</li></Link>
+                                <Link to="/donateCampaign"><li>Donate</li></Link>
                             </ul>
                         </div>
                         <div id="mobile" onClick={this.handleClick}>
