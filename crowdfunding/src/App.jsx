@@ -4,6 +4,7 @@ import About from "../components/About"
 import Founders from "../components/Founders"
 import Footer from "../components/Footer"
 
+
 function App () {
     
     return (
