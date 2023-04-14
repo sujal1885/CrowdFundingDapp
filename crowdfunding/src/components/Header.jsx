@@ -1,5 +1,7 @@
 import { Component } from "react";
 import "./page.css";
+import { Link } from "react-router-dom";
+// import { HashLink } from "react-router-hash-link";
 
 class Header extends Component{
 
@@ -14,16 +16,38 @@ class Header extends Component{
                 <body>
                     <header>
                         <div>
-                            <a href="">CWFunD</a>
+                            <Link to="/"><a>CWFunD</a></Link>
                         </div>
                         <div>
                             <ul 
                                 className={!this.state.clicked ? "ul active":"ul" }
                                 >
-                                <li>Home</li>
-                                <li>About</li>
-                                <li>Contact</li>
-                                <li>Donate</li>
+                                <li><Link to="/" 
+                                style={{
+                                    fontSize:"17px",
+                                    fontWeight:'200'
+                                }}>
+                                    Home
+                                </Link></li>
+                                <li><Link to="/About"
+                                     style={{
+                                        fontSize:"17px",
+                                        fontWeight:'200'
+                                    }}
+                                >About</Link></li>
+                                <li><Link to="/Founders"
+                                     style={{
+                                        fontSize:"17px",
+                                        fontWeight:'200'
+                                    }}
+                                >Founders</Link></li>
+                                <li><Link to="/donateCampaign" 
+                                style={{
+                                    fontSize:"17px",
+                                    fontWeight:'200'
+                                }} 
+                                >
+                                    Donate</Link></li>
                             </ul>
                         </div>
                         <div id="mobile" onClick={this.handleClick}>

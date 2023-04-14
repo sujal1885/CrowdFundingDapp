@@ -14,9 +14,6 @@ function FormCampaign() {
               <form action="" method="POST">
                 <div class="formbold-form-title">
                   <h2 class="">Make A Campaign</h2>
-                  <p>
-                    Donate Your Faith And Love Here
-                  </p>
                 </div>
 
                 <div class="formbold-input-flex">

@@ -1,4 +1,5 @@
 import "./page.css";
+import { Link } from "react-router-dom";
 
 function Home (){
     return (
@@ -16,7 +17,7 @@ function Home (){
                             fontSize:'1rem',
                         }}>Contributing towards better tomorrow</p>
 
-                        <a href="" style={{
+                        <Link to="/createCampaign" style={{
                             textDecoration:'None',
                             color:'black',
                             backgroundColor:'#D9D9D9',
@@ -27,7 +28,7 @@ function Home (){
                             borderRadius:'45px',
                             width:'9rem',
                             fontSize:'1.5rem'
-                        }}>Create</a>
+                        }}>Create</Link>
 
                         <p style={{
                             fontSize:'0.7rem',
