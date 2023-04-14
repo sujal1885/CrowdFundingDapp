@@ -2,39 +2,41 @@ import {Box,Typography} from '@mui/material'
 
 function About(){
     return(
-        <Box
+
+        <div id="About-Us">
+
+        <Box 
             sx={{
                 background:'#1F1F1F',
                 paddingLeft:'3%',
                 paddingRight:'3%',
                 paddingTop:'0.5%',
-                paddingBottom:'5%',
+                textAlign:'center',
             }}
         >
             <Typography
                 sx={{
                     color:'white',
-                    fontFamily: "'Poppins', sans-serif",
+                    fontFamily: "'Raleway', sans-serif",
                     fontSize:'45px',
-                    fontWeight:'500',
+                    fontWeight:'800',
+                    margin:'1.5% 0',
                 }}
             >
-                About us
+                About Us
             </Typography>
             <Box
                 sx={{
                     background:'#28292A',
                     padding:'3%',
-                    marginTop:'2%',
                     borderRadius:'23px',
                 }}
-            >
+                >
                 <Typography
                     sx={{
                         color:'white',
-                        fontSize:'25px',
-                        fontWeight:'300',
-                        fontFamily: "'Poppins', sans-serif",
+                        fontSize:'24px',
+                        fontWeight:'200',
                     }}
                 >
                     We are students of Shri Ramdeobaba college of Engineering and Management , Nagpur . 
@@ -43,6 +45,8 @@ function About(){
                 </Typography>
             </Box>
         </Box>
+
+        </div>
     )
 }
 

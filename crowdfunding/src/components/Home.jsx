@@ -3,7 +3,7 @@ import "./page.css";
 function Home (){
     return (
         <>
-                <div className="Home">
+                <div className="Home" id="Home">
                     <div className="container"></div>
                     <div className="content">
                         <h3 style={{

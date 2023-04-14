@@ -13,7 +13,10 @@ function App () {
         <About />
         <Founders />
         <Footer />
+
+        
         </>
+
     )
 }
 export default App

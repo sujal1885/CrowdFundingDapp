@@ -12,7 +12,8 @@ class Header extends Component{
         return (
             <>
                 <body>
-                    <header>
+
+                    <header id="Header">
                         <div>
                             <a href="">CWFunD</a>
                         </div>
