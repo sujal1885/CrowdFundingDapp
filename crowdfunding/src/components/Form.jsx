@@ -64,25 +64,25 @@ function Form() {
                 </div>
 
                 <div class="formbold-mb-3">
-                  <label for="Organization" class="formbold-form-label">
-                    Organization Name
+                  <label for="CampaignD" class="formbold-form-label">
+                    Campaign Id
                   </label>
                   <input
                     type="text"
-                    name="address"
-                    id="address"
+                    name="CampaignD"
+                    id="CampaignD"
                     class="formbold-form-input"
                   />
                 </div>
 
                 <div class="formbold-mb-3">
-                  <label for="address" class="formbold-form-label">
-                    Wallet address
+                  <label for="organization" class="formbold-form-label">
+                    Organization Name
                   </label>
                   <input
                     type="text"
-                    name="address"
-                    id="address"
+                    name="organization"
+                    id="organization"
                     class="formbold-form-input"
                   />
                 </div>
