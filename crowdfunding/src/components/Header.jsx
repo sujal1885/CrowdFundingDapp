@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./page.css";
+import { Link } from "react-router-dom";
 
 class Header extends Component{
 
@@ -12,18 +13,21 @@ class Header extends Component{
         return (
             <>
                 <body>
-                    <header>
+
+                    <header id="Header">
                         <div>
+                            <Link to="/">
                             <a href="">CWFunD</a>
+                            </Link>
                         </div>
                         <div>
                             <ul 
                                 className={!this.state.clicked ? "ul active":"ul" }
                                 >
-                                <li>Home</li>
-                                <li>About</li>
-                                <li>Contact</li>
-                                <li>Donate</li>
+                                <Link to="/"><li>Home</li></Link>
+                                <Link to="/About"><li>About</li></Link>
+                                <Link to="/Founders"><li>Founders</li></Link>
+                                <Link to="/donateCampaign"><li>Donate</li></Link>
                             </ul>
                         </div>
                         <div id="mobile" onClick={this.handleClick}>

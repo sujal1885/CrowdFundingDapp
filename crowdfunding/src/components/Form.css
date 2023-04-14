@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+#name {
+    margin: 100px;
+    color: wheat;
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+}
+
+.formbold-mb-3 {
+    margin-bottom: 15px;
+}
+
+.formbold-relative {
+    position: relative;
+}
+
+.formbold-opacity-0 {
+    opacity: 0;
+}
+
+.formbold-stroke-current {
+    stroke: currentColor;
+}
+
+#supportCheckbox:checked~div span {
+    opacity: 1;
+}
+
+.form {
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    padding-bottom: 10px;
+    background: url(https://s3-alpha-sig.figma.com/img/1305/0524/72c5f0cba65cfeddfdd82d48dee4be68?Expires=1681689600&Signature=p1AwyMWWkezEFZL7JafTDNEpUTHQoQUJMHLrErGJyHg89uy71MyuHlAwdtLrCz4FChms8AuvgDk87YciXxlheCkOM-1fRbj3iMgxe8dPhDjst2Ro0y-gjPQFuK-Xca7I8oRCFHTz2p4Es5afPA-c1Ke34gOjbcAzcxLU6Myk0AK0F8E~sekRfuE2lYVJPEJisug3QmIEdlXdLrglmO0za5H~aJWpY-TImUSVcjS6rpdGDlxZsz4A4OfJQdI-zckCBOrUAFHUar3uzV15yyLCtEo6hpgXA6BQ93IamzgZyY7G7q6hJo0BhgrMh4AMjagbBYAikGYFUBklfxcfL632rw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)no-repeat center center/cover;
+}
+
+.one {
+    display: inline-block;
+    color: white;
+    height: 100vh;
+    width: 50%;
+    padding-top: 70%;
+    padding-left: 20%;
+    image-rendering: auto;
+    background:url('src/assets/box.png') center no-repeat;
+}
+@media screen and ( max-width:769px ){
+    .one {
+        display: inline-block;
+        color: white;
+        height: 100vh;
+        width: 0%;
+        padding-top: 100px;
+        padding: 0;
+        background-color: red;
+    }
+}
+.form-main {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.form-form {
+    margin: 0 auto;
+    max-width: 570px;
+    border-radius: 10px;
+    width: 100%;
+    background: linear-gradient(white, rgb(174, 251, 255));
+    padding: 40px;
+}
+
+.formbold-img {
+    margin-bottom: 45px;
+}
+
+.formbold-form-title {
+    margin-bottom: 30px;
+}
+
+.formbold-form-title h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #07074d;
+}
+
+.formbold-form-title p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #536387;
+    margin-top: 12px;
+}
+
+.formbold-input-flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.formbold-input-flex>div {
+    width: 50%;
+}
+
+.formbold-form-input {
+    text-align: center;
+    width: 100%;
+    padding: 13px 22px;
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #536387;
+    outline: none;
+    resize: none;
+}
+
+.formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-form-label {
+    color: #536387;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formbold-checkbox-label {
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #536387;
+}
+
+.formbold-checkbox-label a {
+    margin-left: 5px;
+    color: #6a64f1;
+}
+
+.formbold-input-checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.formbold-checkbox-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    margin-top: 2px;
+    border: 0.7px solid #dde3ec;
+    border-radius: 3px;
+}
+
+.formbold-btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 14px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: #6a64f1;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
