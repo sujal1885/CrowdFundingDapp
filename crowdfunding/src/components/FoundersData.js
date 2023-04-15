@@ -1,6 +1,7 @@
 import Profile1 from '../assets/profile.jpeg'
 import Profile2 from '../assets/vivek.jpg'
 import Profile3 from '../assets/ujjwal.jpg'
+import Profile4 from '../assets/kartik.jpg'
 
 const  FoundersData = [
     {
@@ -22,7 +23,7 @@ const  FoundersData = [
     {
       id: 3,
       name: "Kartik Vhonale",
-      icon: Profile3,
+      icon: Profile4,
       mailid: "mailto:sujalagrawalgondia.com",
       linkedinid: "https://www.linkedin.com/in/kartik-vhonale-3215191b9/",
       instaid: "https://www.instagram.com/kartikvhonale/",

@@ -14,9 +14,9 @@ function Footer (){
                             <h3>Follow Us</h3>
                         {/* </div> */}
                         <div >
-                            <a href=""><i className="fa-brands fa-instagram"></i></a>
-                            <a href=""><i className="fa-brands fa-linkedin-in"></i></a>
-                            <a href=""><i className="fa-brands fa-twitter"></i></a> 
+                            <a href="https://www.instagram.com/aka_sujal_/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sujal-agrawal-655781230/" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a>
+                            <a href="mailto:sujalagrawalgondia.com" target="_blank"><i className="fa-brands fa-twitter"></i></a> 
                         </div>
                     </div>
                 </div>
