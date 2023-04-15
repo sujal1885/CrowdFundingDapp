@@ -53,7 +53,8 @@ function Founders() {
                                 alt="profile photo"
                                 height="140"
                                 image={icon}
-                                style={{width: '100%', height: '250px'}}
+                                style={{width: '100%', height: '250px',objectFit:'contain'}}
+                                
                             />
                             <CardContent>
                                 <Typography

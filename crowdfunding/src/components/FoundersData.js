@@ -1,4 +1,6 @@
 import Profile1 from '../assets/profile.jpeg'
+import Profile2 from '../assets/vivek.jpg'
+import Profile3 from '../assets/ujjwal.jpg'
 
 const  FoundersData = [
     {
@@ -12,15 +14,15 @@ const  FoundersData = [
     {
       id: 2,
       name: "Vivek Meher",
-      icon: Profile1,
+      icon: Profile2,
       mailid: "mailto:vivek.meher303@gmail.com",
-      linkedinid: "https://www.linkedin.com/in/ujjwal-prithyani-075143249/",
+      linkedinid: "https://www.linkedin.com/in/vivek-meher-a19566272/",
       instaid: "https://www.instagram.com/vivek__meher/",
     },
     {
       id: 3,
       name: "Kartik Vhonale",
-      icon: Profile1,
+      icon: Profile3,
       mailid: "mailto:sujalagrawalgondia.com",
       linkedinid: "https://www.linkedin.com/in/kartik-vhonale-3215191b9/",
       instaid: "https://www.instagram.com/kartikvhonale/",
@@ -28,7 +30,7 @@ const  FoundersData = [
     {
       id: 4,
       name: "Lavinya Bopche",
-      icon: Profile1,
+      icon: Profile3,
       mailid: "mailto:sujalagrawalgondia.com",
       linkedinid: "https://www.linkedin.com/in/lavinya-bopche-5b3a81257/",
       instaid: "https://www.instagram.com/_lavinya_42nd/",
