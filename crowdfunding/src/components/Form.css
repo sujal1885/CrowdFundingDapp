@@ -42,7 +42,6 @@ body {
     border-radius: 10px;
     display: flex;
     padding-bottom: 10px;
-    background: url(https://s3-alpha-sig.figma.com/img/1305/0524/72c5f0cba65cfeddfdd82d48dee4be68?Expires=1681689600&Signature=p1AwyMWWkezEFZL7JafTDNEpUTHQoQUJMHLrErGJyHg89uy71MyuHlAwdtLrCz4FChms8AuvgDk87YciXxlheCkOM-1fRbj3iMgxe8dPhDjst2Ro0y-gjPQFuK-Xca7I8oRCFHTz2p4Es5afPA-c1Ke34gOjbcAzcxLU6Myk0AK0F8E~sekRfuE2lYVJPEJisug3QmIEdlXdLrglmO0za5H~aJWpY-TImUSVcjS6rpdGDlxZsz4A4OfJQdI-zckCBOrUAFHUar3uzV15yyLCtEo6hpgXA6BQ93IamzgZyY7G7q6hJo0BhgrMh4AMjagbBYAikGYFUBklfxcfL632rw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)no-repeat center center/cover;
 }
 
 .one {
@@ -63,7 +62,7 @@ body {
         width: 0%;
         padding-top: 100px;
         padding: 0;
-        background-color: red;
+        background:url('src/assets/box.png') center no-repeat;
     }
 }
 .form-main {
