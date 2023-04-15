@@ -138,7 +138,7 @@ function Form() {
                   </label>
                 </div>
 
-                <button class="formbold-btn">Donet Now</button>
+                <button class="formbold-btn">Donate Now</button>
               </form>
             </div>
           </div>
