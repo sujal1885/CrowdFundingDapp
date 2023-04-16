@@ -86,11 +86,11 @@ function FormCampaign() {
 
                 <div class="formbold-input-flex">
                   <div>
-                    <label for="money" class="formbold-form-label"> Coins you want to Donate </label>
+                    <label for="Place" class="formbold-form-label"> Place </label>
                     <input
                       type="text"
-                      name="money"
-                      id="money"
+                      name="Place"
+                      id="Place"
                       class="formbold-form-input"
                     />
                   </div>
